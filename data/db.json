@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "id": "4c1e",
+      "title": "title 1",
+      "body": "body 1",
+      "author": "mario"
+    },
+    {
+      "id": "d9bf",
+      "title": "title 2",
+      "body": "body 2",
+      "author": "yoshi"
+    },
+    {
+      "id": "d21d",
+      "title": "title 3",
+      "body": "body 3",
+      "author": "yoshi"
+    }
+  ]
+}
