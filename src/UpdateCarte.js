@@ -65,8 +65,6 @@ const UpdateCarte = () => {
             setAutor={setAutor}
             editura={editura}
             setEditura={setEditura}
-            pret={pret}
-            setPret={setPret}
           />
         </div>
       </form>
