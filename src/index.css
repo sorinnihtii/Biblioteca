@@ -90,8 +90,7 @@ div.table {
   padding-right: 5px;
   max-height: 55vh;
   max-width: fit-content;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: auto;
 }
 
 table {
@@ -149,7 +148,7 @@ form button {
   border: 2px solid var(--main-color);
   height: 30px;
   background-color: var(--main-color);
-  color: white;
+  color: rgba(255, 255, 255, 0.945);
   width: 100%;
 }
 
