@@ -6,7 +6,7 @@ const Cititori = () => {
     data: rows,
     isPending: isLoading,
     error: error,
-  } = useFetch("http://myproject.test//getData.php?tabel=cititori")
+  } = useFetch("http://localhost//getData.php?tabel=cititori")
 
   return (
     <div className="content cititori">
@@ -18,7 +18,7 @@ const Cititori = () => {
 
       {rows && (
         <DisplayCititori
-          deleteURL="http://myproject.test//deleteCititor.php"
+          deleteURL="http://localhost//deleteCititor.php"
           rows={rows}
         />
       )}

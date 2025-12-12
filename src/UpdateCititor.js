@@ -12,7 +12,7 @@ const UpdateCititor = () => {
   const history = useHistory()
 
   const { data: rows } = useFetch(
-    "http://myproject.test//getData.php?tabel=cititori",
+    "http://localhost//getData.php?tabel=cititori",
   )
 
   const [nume, setNume] = useState("")
@@ -48,7 +48,7 @@ const UpdateCititor = () => {
     e.preventDefault()
 
     tools_postRequest(
-      "http://myproject.test//updateCititor.php",
+      "http://localhost//updateCititor.php",
       "/cititori",
       history,
       {

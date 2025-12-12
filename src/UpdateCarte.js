@@ -12,7 +12,7 @@ const UpdateCarte = () => {
   const history = useHistory()
 
   const { data: rows } = useFetch(
-    "http://myproject.test//getData.php?tabel=carti",
+    "http://localhost//getData.php?tabel=carti",
   )
 
   const [titlu, setTitlu] = useState("")
@@ -44,7 +44,7 @@ const UpdateCarte = () => {
     e.preventDefault()
 
     tools_postRequest(
-      "http://myproject.test//updateCarte.php",
+      "http://localhost//updateCarte.php",
       "/carti",
       history,
       { id, titlu, autor, editura, pret },

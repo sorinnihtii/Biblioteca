@@ -6,7 +6,7 @@ const Carti = () => {
     data: rows,
     isPending: isLoading,
     error: error,
-  } = useFetch("http://myproject.test//getData.php?tabel=carti")
+  } = useFetch("http://localhost//getData.php?tabel=carti")
 
   return (
     <div className="content carti">
@@ -18,7 +18,7 @@ const Carti = () => {
 
       {rows && (
         <DisplayCarti
-          deleteURL="http://myproject.test//deleteCarte.php" 
+          deleteURL="http://localhost//deleteCarte.php" 
           rows={rows}
         />
       )}

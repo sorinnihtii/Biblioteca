@@ -15,7 +15,7 @@ const InsertCarte = () => {
     e.preventDefault()
 
     tools_postRequest(
-      "http://myproject.test//insertCarte.php",
+      "http://localhost//insertCarte.php",
       "/carti",
       history,
       { titlu, autor, editura, pret },

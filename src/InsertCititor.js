@@ -18,7 +18,7 @@ const InsertCititor = () => {
     e.preventDefault()
 
     tools_postRequest(
-      "http://myproject.test//insertCititor.php",
+      "http://localhost//insertCititor.php",
       "/cititori",
       history,
       { nume, prenume, adresa, telefon, idCarte, dataImprumut, dataReturn },
